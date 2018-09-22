@@ -1,0 +1,39 @@
+{
+  "name": "d3playground",
+  "version": "1.0.0",
+  "description": "A playground to test d3 visualisations",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkldop/d3playground.git"
+  },
+  "keywords": [
+    "d3",
+    "nodejs",
+    "webpack"
+  ],
+  "author": "Philipp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkldop/d3playground/issues"
+  },
+  "homepage": "https://github.com/xkldop/d3playground#readme",
+  "dependencies": {
+    "d3": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.3",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
